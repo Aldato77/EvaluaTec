@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.barra {
+  background-color: #0B231E;
+  padding: 8px 15px;
+}
+.barra img {
+  height: 30px;
+}
+
+.icono-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.icono-header .contenido-icono-logo, .icono-header .contenido-icono {
+  display: flex;
+  gap: 5px;
+}
+.icono-header .contenido-icono-logo img {
+  height: 60px;
+}
+.icono-header .contenido-icono img {
+  height: 50px;
+}
+
+header h1 {
+  text-align: center;
+  background-color: #1B396A;
+  
+  color: white;
+}
+.centrar-form{
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-Login h2{
+  text-align: center;
+  font-weight: 600;
+}
+
+.titulo-Login img{
+  margin: auto;
+  height: 200px;
+}
+.titulo-sesion{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.formulario img{
+  height: 50px;
+  margin: auto;
+}
+.formulario{
+
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.formkit-wrapper{
+  margin: 0 auto;
+}
